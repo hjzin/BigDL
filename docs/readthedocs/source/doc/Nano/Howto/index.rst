@@ -29,6 +29,17 @@ PyTorch Lightning
 Inference Optimization
 -------------------------
 
+OpenVINO
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `How to inference on OpenVINO model <Inference/OpenVINO/openvino_inference.html>`_
+
+.. toctree::
+    :maxdepth: 1
+    :hidden:
+
+    Inference/OpenVINO/openvino_inference
+
 PyTorch
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
