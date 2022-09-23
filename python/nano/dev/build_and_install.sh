@@ -39,7 +39,7 @@ bash ${RUN_SCRIPT_DIR}/release.sh ${platform} ${version} ${upload}
 
 cd ${WHL_DIR}
 whl_name=`ls dist`
-if [$framework == "basic"]; 
+if [ $framework == "basic" ]; 
 then
   # when framework is specified to "basic", nano will be installed without
   # any framework like Pytorch and TensorFlow
