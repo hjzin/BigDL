@@ -4,7 +4,7 @@ name: Nano Unit Tests Basic
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, add_no-framework_option_in_build_and_install_script ]
+    branches: [ add_no-framework_option_in_build_and_install_script ]
     paths:
       - 'python/nano/**'
       - '.github/workflows/nano_unit_tests_basic.yml'
