@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-set -e
+set -x
 RUN_SCRIPT_DIR=$(cd $(dirname $0) ; pwd)
 BIGDL_DIR="$(cd ${RUN_SCRIPT_DIR}/../../..; pwd)"
 WHL_DIR="$(cd ${BIGDL_DIR}/python/nano; pwd)"
